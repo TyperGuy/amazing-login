@@ -5,8 +5,10 @@ function Home(){
    
   return (
 
-    <div className="main">
-      Simple Div
+    <div className="container">
+      <div className="forms-container">
+
+      </div>
     </div>
   );
 

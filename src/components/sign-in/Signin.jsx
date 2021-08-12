@@ -3,7 +3,9 @@ import './Signin.css';
 
 function Signin(){
   return(
-    <div>Simple Div</div>
+    <form action="" className="signin-form">
+      
+    </form>
   );
 }
 
