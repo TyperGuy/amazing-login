@@ -1,5 +1,6 @@
 import React from 'react';
 import './Signin.css';
+import Social from '../social/Social';
 
 function Signin(){
   return(
@@ -14,7 +15,7 @@ function Signin(){
         <input type="password" placeholder="PassWord" />
       </div>
       <input type="submit" className="btn solid" />
-      
+      <Social/>
 
     </form>
   );
