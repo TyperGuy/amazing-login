@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   min-height:100vh;
-  background-color: aquamarine;
+  background-color:#fff;
   overflow: hidden;
 }
 .form-container{
