@@ -5,7 +5,7 @@ import Social from '../social/Social';
 function Signup(){
   return(
     <form action="" className="sign-in-form">
-      <h2 className="title">Sign in</h2>
+      <h2 className="title">Sign Up</h2>
       <div className="input-field">
         <i className="fas fa-user"></i>
         <input type="text" placeholder="UserName" />
