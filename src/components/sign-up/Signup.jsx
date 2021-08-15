@@ -11,8 +11,12 @@ function Signup(){
         <input type="text" placeholder="UserName" />
       </div>
       <div className="input-field">
+        <i className="fas fa-email"></i>
+        <input type="text" placeholder="Email" />
+      </div>
+      <div className="input-field">
         <i className="fas fa-lock"></i>
-        <input type="password" placeholder="PassWord" />
+        <input type="password" placeholder="Pass Word" />
       </div>
       <input type="submit" className="btn solid" />
       <Social/>
