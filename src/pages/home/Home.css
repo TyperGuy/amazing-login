@@ -5,6 +5,16 @@
   background-color:#fff;
   overflow: hidden;
 }
+.container::before{
+  content: '';
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  background: linear-gradient(-45deg,#4481eb,#04befe);
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+}
 .form-container{
   position:absolute;
   width: 100%;
@@ -29,6 +39,8 @@ form{
   flex-direction: center;
   grid-column: 1/2;
   grid-row: 1/2;
+  padding: 0 5rem;
+  overflow: hidden;
 }
 
 form.sign-in-form{
