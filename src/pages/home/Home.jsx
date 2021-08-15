@@ -9,8 +9,11 @@ function Home(){
 
     <div className="container">
       <div className="forms-container">
-        <Signin/>
-        <Signup/>
+        <div className="signin-signup">
+          <Signin/>
+          <Signup/>
+        </div>
+        
       </div>
     </div>
   );
