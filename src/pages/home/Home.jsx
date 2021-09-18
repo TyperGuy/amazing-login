@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import Signin from '../../components/sign-in/Signin';
 import Signup from '../../components/sign-up/Signup';
+import Left from '../../components/panel-left/Left';
 
 function Home(){
    
@@ -14,6 +15,9 @@ function Home(){
           <Signup/>
         </div>
         
+      </div>
+      <div className="panel-container">
+        <Left/>
       </div>
     </div>
   );
