@@ -3,6 +3,7 @@ import './Home.css'
 import Signin from '../../components/sign-in/Signin';
 import Signup from '../../components/sign-up/Signup';
 import Left from '../../components/panel-left/Left';
+import Right from '../../components/panel-right/Right';
 
 function Home(){
    
@@ -16,8 +17,9 @@ function Home(){
         </div>
         
       </div>
-      <div className="panel-container">
+      <div className="panels-container">
         <Left/>
+        <Right/>
       </div>
     </div>
   );
