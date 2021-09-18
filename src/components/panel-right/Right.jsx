@@ -10,7 +10,7 @@ function Right(){
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
         <button className="btn transparent" id="signin-btn">Entrar</button>
       </div>
-      <img src={signup} alt="signin" />
+      <img className="image" src={signup} alt="signin" />
     </div>
   );
 }
