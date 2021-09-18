@@ -10,7 +10,7 @@
   position: absolute;
   width: 2000px;
   height: 2000px;
-  background: linear-gradient(-45deg,#4481eb,#04befe);
+  background: linear-gradient(-45deg, blueviolet,#04befe);
   border-radius: 50%;
   top: -10%;
   right: 48%;
@@ -59,7 +59,6 @@ form.sign-up-form{
   height: 100%;
   top: 0;
   left: 0;
-  background-color: blueviolet;
   display: grid;
   grid-template-columns:repeat(2,1fr);
 }
