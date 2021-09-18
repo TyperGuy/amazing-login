@@ -15,6 +15,7 @@
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
+  z-index: 6;
 }
 .form-container{
   position:absolute;
@@ -31,6 +32,7 @@
   width: 50%;
   display: grid;
   grid-template-columns: 1fr;
+  z-index: 5;
 }
 
 form{
@@ -68,4 +70,23 @@ form.sign-up-form{
   align-items: flex-end;
   justify-content: space-around;
   text-align: center;
+  z-index: 7;
+}
+.panel .content{
+  color: #fff;
+}
+.panel h3{
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.panel p{
+  font-size: .98rem;
+  padding: .7rem 0;
+}
+.btn.transparent{
+  color: #fff;
+  border: 2px solid #fff;
+  background: none;
 }

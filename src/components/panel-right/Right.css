@@ -1,7 +1,12 @@
 .right-panel{
   padding: 3rem 12% 2rem 17%;
+  pointer-events: none;
 }
 
 .image{
   width: 100%;
+}
+
+.right-panel .content, .right-panel .image{
+  transform: translateX(800px);
 }

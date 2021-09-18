@@ -1,5 +1,6 @@
 .left-panel{
   padding: 3rem 17% 2rem 12%;
+  pointer-events: all;
 }
 .image{
   width: 100%;
