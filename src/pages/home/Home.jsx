@@ -4,6 +4,7 @@ import Signin from '../../components/sign-in/Signin';
 import Signup from '../../components/sign-up/Signup';
 import Left from '../../components/panel-left/Left';
 import Right from '../../components/panel-right/Right';
+import signup from '../../assets/signup.png'
 
 function Home(){
    
@@ -18,8 +19,22 @@ function Home(){
         
       </div>
       <div className="panels-container">
-        <Left/>
-        <Right/>
+        <div className="panel left-panel">
+          <div className="content">
+            <h3>Parece que é novo aqui!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
+            <button className="btn transparent" id="signup-btn">Cadastar</button>
+          </div>
+          <img className="image" src={signup} alt="signup" />
+        </div>
+        <div className="panel right-panel">
+          <div className="content">
+            <h3>Parece que é novo aqui!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
+            <button className="btn transparent signin-btn" id="signin-btn">Entrar</button>
+          </div>
+          <img className="image" src={signup} alt="signin" />
+        </div>
       </div>
     </div>
   );
