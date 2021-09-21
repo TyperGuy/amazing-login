@@ -12,8 +12,13 @@ function Home(){
      const signin_btn = document.getElementById("signin-btn");
      const signup_btn = document.getElementById("signup-btn");
      
+     function rightAndleClick(e){
+       e.preventDefault()
+       const container = document.querySelector(".container");
+       container.classList.remove("sign-up-mode");
+     }
 
-     function handleClick(e){
+     function leftHandleClick(e){
        e.preventDefault();
        const container = document.querySelector(".container");
        container.classList.add("sign-up-mode");
@@ -34,7 +39,7 @@ function Home(){
           <div className="content">
             <h3>Parece que é novo aqui!</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
-            <button onClick={handleClick} className="btn transparent" id="signup-btn">Cadastar</button>
+            <button onClick={leftHandleClick} className="btn transparent" id="signup-btn">Cadastar</button>
           </div>
           <img className="image" src={signup} alt="signup" />
         </div>
@@ -42,7 +47,7 @@ function Home(){
           <div className="content">
             <h3>Parece que é novo aqui!</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
-            <button className="btn transparent signin-btn" id="signin-btn">Entrar</button>
+            <button onClick={rightAndleClick} className="btn transparent signin-btn" id="signin-btn">Entrar</button>
           </div>
           <img className="image" src={signup} alt="signin" />
         </div>

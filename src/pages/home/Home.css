@@ -16,6 +16,7 @@
   right: 48%;
   transform: translateY(-50%);
   z-index: 6;
+  transition: 1.8s ease-in-out;
 }
 .form-container{
   position:absolute;
@@ -89,4 +90,10 @@ form.sign-up-form{
   color: #fff;
   border: 2px solid #fff;
   background: none;
+}
+
+/*Animando*/
+.container.sign-up-mode::before{
+  transform: translate(100%,-50%);
+  right: 52%;
 }
