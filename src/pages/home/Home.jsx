@@ -11,16 +11,17 @@ import signup from '../../assets/signup.png'
 function Home(){
      const signin_btn = document.getElementById("signin-btn");
      const signup_btn = document.getElementById("signup-btn");
-     const container = document.querySelector(".container");
+     
 
      function handleClick(e){
        e.preventDefault();
-       window.alert("Funcinou");
+       const container = document.querySelector(".container");
+       container.classList.add("sign-up-mode");
      }
 
   return (
 
-    <div className="container">
+    <div class="container" className="container">
       <div className="forms-container">
         <div className="signin-signup">
           <Signin/>
