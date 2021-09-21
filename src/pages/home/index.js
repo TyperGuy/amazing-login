@@ -11,6 +11,5 @@ const container = document.querySelector(".container");
 
 signin_btn.addEventListener('click', ()=>{
    window.alert("funcionou");
-});
-*/
+}); */
 export default Home;

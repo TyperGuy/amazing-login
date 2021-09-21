@@ -6,8 +6,18 @@ import Left from '../../components/panel-left/Left';
 import Right from '../../components/panel-right/Right';
 import signup from '../../assets/signup.png'
 
+
+
 function Home(){
-   
+     const signin_btn = document.getElementById("signin-btn");
+     const signup_btn = document.getElementById("signup-btn");
+     const container = document.querySelector(".container");
+
+     function handleClick(e){
+       e.preventDefault();
+       window.alert("Funcinou");
+     }
+
   return (
 
     <div className="container">
@@ -23,7 +33,7 @@ function Home(){
           <div className="content">
             <h3>Parece que é novo aqui!</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, esse?</p>
-            <button className="btn transparent" id="signup-btn">Cadastar</button>
+            <button onClick={handleClick} className="btn transparent" id="signup-btn">Cadastar</button>
           </div>
           <img className="image" src={signup} alt="signup" />
         </div>
